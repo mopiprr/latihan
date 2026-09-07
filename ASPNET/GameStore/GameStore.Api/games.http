@@ -1,0 +1,30 @@
+### GET from domain
+GET http://localhost:5172/games
+
+
+### POST to domain
+POST http://localhost:5172/games
+Content-Type: application/json
+
+{
+  "Title": "Game Title 4",
+  "Description": "Game Description 4",
+  "Genre": "Game Genre",
+  "Price": 5999.99,
+  "ReleaseDate": "2029-01-01"
+}
+
+### PUT / update data to domain
+PUT http://localhost:5172/games/1
+Content-Type: application/json
+
+{
+  "Title": "Game Title 1 Changed",
+  "Description": "Game Description 1 Changed",
+  "Genre": "Game Genre Updated",
+  "Price": 49999999999.99,
+  "ReleaseDate": "2045-01-01"
+}
+
+### DELETE data from domain
+DELETE http://localhost:5172/games/1
