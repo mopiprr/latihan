@@ -12,7 +12,6 @@ C:\Users\Muaafii Putra R\Documents\github\pribadi\latihan\ASPNET\GameStore\GameS
 C:\Users\Muaafii Putra R\Documents\github\pribadi\latihan\ASPNET\GameStore\GameStore.Api\obj\Debug\net10.0\GameStore.Api.AssemblyInfo.cs
 C:\Users\Muaafii Putra R\Documents\github\pribadi\latihan\ASPNET\GameStore\GameStore.Api\obj\Debug\net10.0\GameStore.Api.csproj.CoreCompileInputs.cache
 C:\Users\Muaafii Putra R\Documents\github\pribadi\latihan\ASPNET\GameStore\GameStore.Api\obj\Debug\net10.0\GameStore.Api.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Muaafii Putra R\Documents\github\pribadi\latihan\ASPNET\GameStore\GameStore.Api\obj\Debug\net10.0\GameStore.Api.sourcelink.json
 C:\Users\Muaafii Putra R\Documents\github\pribadi\latihan\ASPNET\GameStore\GameStore.Api\obj\Debug\net10.0\rjimswa.dswa.cache.json
 C:\Users\Muaafii Putra R\Documents\github\pribadi\latihan\ASPNET\GameStore\GameStore.Api\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\Muaafii Putra R\Documents\github\pribadi\latihan\ASPNET\GameStore\GameStore.Api\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json

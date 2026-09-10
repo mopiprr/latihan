@@ -30,7 +30,8 @@ public static class DataExtensions
     public static void AddGameStoreDb(this WebApplicationBuilder builder)
     {
         // Connection string for the SQLite database file
-        var connnString = "Data Source=GameStore.db";
+        var connnString = builder.Configuration.GetConnectionString("GameStore") ?? "Data Source=GameStore.db";
+        
         builder.Services.AddSqlite<GameStoreContext>(connnString, optionsAction: options => options.UseSeeding((context, _) =>
         {
             // Seed initial genres if none currently exist in the database

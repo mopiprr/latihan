@@ -9,7 +9,7 @@ namespace GameStore.Api.Dtos;
 /// <param name="Genre">The genre name associated with the game.</param>
 /// <param name="Price">The retail price of the game.</param>
 /// <param name="ReleaseDate">The official release date of the game.</param>
-public record class GameDto (
+public record class GameSuummaryDto (
     int Id,
     string Title,
     string Description,
