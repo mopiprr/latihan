@@ -8,7 +8,7 @@ namespace GameStore.Api.Dtos;
 /// </summary>
 /// <param name="Title">The updated title of the game. Required, max 50 characters.</param>
 /// <param name="Description">The updated description of the game. Max 500 characters.</param>
-/// <param name="Genre">The updated genre of the game. Required, max 20 characters.</param>
+/// <param name="GenreId">The updated identifier of the genre associated with the game. Must be between 1 and 50.</param>
 /// <param name="Price">The updated retail price of the game. Must be a non-negative value.</param>
 /// <param name="ReleaseDate">The updated release date of the game.</param>
 public record class UpdateGameDto(

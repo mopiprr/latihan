@@ -1,7 +1,7 @@
 namespace GameStore.Api.Dtos;
 
 /// <summary>
-/// Data transfer object representing a game returned by the API to clients.
+/// Data transfer object representing summary information of a game returned in list queries to clients.
 /// </summary>
 /// <param name="Id">The unique identifier of the game.</param>
 /// <param name="Title">The title of the game.</param>

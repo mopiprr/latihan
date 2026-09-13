@@ -15,5 +15,6 @@ var app = builder.Build();
 
 // Configure HTTP request pipeline and endpoints
 app.MapGamesEndpoints(); // Maps all minimal API endpoints for /games
+app.MapGenresEndpoints(); // Maps all minimal API endpoints for /genres
 app.MigrateDb();         // Applies any pending database migrations on startup
 app.Run();               // Starts listening for incoming HTTP requests

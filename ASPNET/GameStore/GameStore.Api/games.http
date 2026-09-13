@@ -1,30 +1,47 @@
-### GET from domain
+### ==============================================================================
+### GameStore API - HTTP Request Tests
+### Digunakan untuk menguji endpoint API (misal dengan VS Code REST Client / Visual Studio)
+### Base URL: http://localhost:5172
+### ==============================================================================
+
+### 1. GET all games
+### Mengambil seluruh daftar ringkasan game beserta nama genre
 GET http://localhost:5172/games
 
+### 2. GET game by ID
+### Mengambil detail satu game berdasarkan ID
+GET http://localhost:5172/games/1
 
-### POST to domain
+### 3. GET all genres
+### Mengambil seluruh daftar genre yang tersedia
+GET http://localhost:5172/genres
+
+### 4. POST create game
+### Menambahkan data game baru ke database
 POST http://localhost:5172/games
 Content-Type: application/json
 
 {
-  "Title": "dhfhajkhdfasjkfhalkhfajhahfahfjaklhfajkhfala",
-  "Description": "Game Description 4",
-  "Genre": "Game Genre",
-  "Price": 5999.99,
-  "ReleaseDate": "2029-01-01"
+  "Title": "Game baru banget bangor",
+  "Description": "Burger bangor",
+  "GenreId": 2,
+  "Price": 1.99,
+  "ReleaseDate": "2028-11-11"
 }
 
-### PUT / update data to domain
-PUT http://localhost:5172/games/1
+### 5. PUT update game
+### Memperbarui data game berdasarkan ID
+PUT http://localhost:5172/games/3
 Content-Type: application/json
 
 {
   "Title": "Game Title 1 Changed",
   "Description": "Game Description 1 Changed",
-  "Genre": "Game Genre Updated",
-  "Price": 49999999999.99,
+  "GenreId": 1,
+  "Price": 49.99,
   "ReleaseDate": "2045-01-01"
 }
 
-### DELETE data from domain
-DELETE http://localhost:5172/games/1
+### 6. DELETE game
+### Menghapus data game berdasarkan ID
+DELETE http://localhost:5172/games/3
